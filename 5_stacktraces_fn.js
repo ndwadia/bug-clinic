@@ -1,4 +1,4 @@
-// require('stackup')
+require('stackup')
 
 var domain = require('domain')
 var readFile = require('fs').readFile

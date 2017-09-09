@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "bug-clinic": "^1.1.6"
+    "bug-clinic": "^1.1.6",
+    "stackup": "^1.0.2"
   },
   "devDependencies": {},
   "scripts": {

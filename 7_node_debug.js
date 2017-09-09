@@ -1,16 +1,10 @@
 var request = require('http').request
 
-var contentType = 'text/html'
-var body = '<html>' +
-  '<head><title>hi</title></head>' +
-  '<body><p>yo</p></body>' +
-  '</html>'
-
-  var headers = {
-    host: 'localhost',
-    port: 9876,
-    method: 'GET'
-  }
+var headers = {
+  host: 'localhost',
+  port: 9876,
+  method: 'GET'
+}
 
 var yolo = request(headers, function (res) {
   res.setEncoding('utf8')
